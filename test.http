@@ -1,0 +1,44 @@
+# GET http://localhost:5000/api/products
+
+
+
+# # POST http://localhost:5000/api/product
+# Content-Type: application/json
+
+# {
+#     "product_id":"4",
+#     "title":"product One",
+#     "image":[
+#           "https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg?fit=fill&w=480&h=270",
+#           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpwTa65l7qOPgBrWIS8pNjR6KjSASqoeRoYSUsR11-_9Hgv6Sy2BfHPmvFnFa73WIAkDM&usqp=CAU",
+#           "https://static.toiimg.com/photo/72975551.cms"
+#     ],
+#     "descrition":"this is the first REST API",
+#     "sizes":["XL","XXl","L","M"],
+#     "color":["Red","Green","Blue"],
+#     "content":"lorem ipsum",
+#     "price":"1250$"
+# }
+
+# Delete http://localhost:5000/api/product/6081e464d2b35b223cd137b9
+
+# PUT http://localhost:5000/api/product/6081e468d2b35b223cd137ba
+# Content-Type: application/json
+
+# {
+#     "product_id":"4",
+#     "title":"Watch product One and he is upadted",
+#     "image":[
+#           "https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg?fit=fill&w=480&h=270",
+#           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpwTa65l7qOPgBrWIS8pNjR6KjSASqoeRoYSUsR11-_9Hgv6Sy2BfHPmvFnFa73WIAkDM&usqp=CAU",
+#           "https://static.toiimg.com/photo/72975551.cms"
+#     ],
+#     "descrition":"this is the first REST API",
+#     "sizes":["XL","XXl","L","M"],
+#     "color":["Red","Green","Blue"],
+#     "content":"lorem ipsum",
+#     "price":"12222222250$"
+# }
+
+GET http://localhost:5000/api/product/6081e468d2b35b223cd137ba
+
